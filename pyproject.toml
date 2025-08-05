@@ -1,0 +1,11 @@
+[project]
+name = "turtlecontrol"
+version = "0.1.0"
+description = "WebSocket API for controlling ComputerCraft turtles"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.104.0", 
+    "uvicorn[standard]>=0.24.0",
+    "websockets>=12.0",
+]
